@@ -9,28 +9,26 @@ body, html {
 }
 
 .background-image {
-  background-image: url("../assets/img/background1.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url("../assets/img/background1.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 
 /* NAV BAR */
 
-.u-max-full-width {
+/*.u-max-full-width {
   max-width: 100%;
   box-sizing: border-box; 
-}
+}*/
 
 #nav-bar {
-    padding: 5px 0px 5px 0px;
-    background-color: grey;
+    padding: 0px 5px;
     position: static;
     overflow: hidden;
-    border: 4px green;
-    height: 10%;
+    border: 4px red;
+    /*background: grey;*/
 }
 
 #header-logo-image {
@@ -42,9 +40,15 @@ body, html {
     margin-left: 10%;
 }
 
+#logo-title {
+    margin-left: 20%;
+}
+
 #nav-order {
-    background: yellow;
+    float: center;
+    /*background: #cfebcc;*/
     text-align: center;
+    text-shadow: #cfebcc;
 }
 
 #nav-order a {
@@ -52,5 +56,6 @@ body, html {
     display: block;
     text-align: center;
     padding: 3px;
+    margin-top: 2.5em;
 }
 
