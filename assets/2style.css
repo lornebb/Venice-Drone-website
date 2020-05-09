@@ -1,0 +1,42 @@
+body {
+    font-family: DM Mono;
+}
+
+
+/* NAV BAR */
+
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; 
+}
+
+#nav-bar {
+    padding: 5px 0px 5px 0px;
+    background-color: grey;
+    position: static;
+    overflow: hidden;
+    border: 4px green;
+    height: 10%;
+}
+
+#header-logo-image {
+    width: 46px;
+    height: 46px;
+    border-radius: 60%;
+    overflow: hidden;
+    margin-top: 1px;
+    margin-left: 40px;
+}
+
+#nav-order {
+    background: yellow;
+    text-align: center;
+}
+
+#nav-order a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 3px;
+}
+
