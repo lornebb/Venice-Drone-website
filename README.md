@@ -1,5 +1,9 @@
 Need to get an example read me to use! 
 
+11th May - 
+- Must remeber to open HOME on index.html to find the proper page!!!
+- img alt tags, knew i forgot about something.
+
 9th May -
 - need to figure out nav bar invisibility... 
 - holy shit balls, finally figured out the background thing and it looks wicked! 
