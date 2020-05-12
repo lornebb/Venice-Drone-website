@@ -26,6 +26,12 @@ body, html {
     margin-left: 10%;
 }
 
+.logo-image-props {
+    filter: drop-shadow(8px 8px 10px gray);
+    filter: saturate(8);
+    filter: invert(100%);
+}
+
 /* - - - - - - - - - - - - Nav Bar - - - - - - - - - - */
 
 #nav-bar {
@@ -51,13 +57,6 @@ body, html {
     margin-top: 0.7em;
     text-shadow: 1px 2px #cfebcc;
 }
-
-.logo-image-props {
-    filter: drop-shadow(8px 8px 10px gray);
-    filter: saturate(8);
-    filter: invert(100%);
-}
-
 
 /* - - - - - - - - - - - - Feature info - - - - - - - - - - - - */
 
