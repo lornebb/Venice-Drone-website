@@ -2,11 +2,12 @@ body {
     font-family: DM Mono;
 }
 
-/* Background Image */
-
 body, html {
   height: 100%;
 }
+
+/* - - - - - - - - - - - - Home page - - - - - - - - - - - - */
+/* - - - - - - - - - - - - Background Image - Home Page - - - - - - - - - - */
 
 .background-image {
     background-image: url("../assets/img/background1.jpg");
@@ -16,18 +17,13 @@ body, html {
     background-size: cover;
 }
 
-/* NAV BAR */
-
-/*.u-max-full-width {
-  max-width: 100%;
-  box-sizing: border-box; 
-}*/
+/* - - - - - - - - - - - - Nav Bar - - - - - - - - - - */
 
 #nav-bar {
     padding: 0px 5px;
-    position: static;
+    position: absolute;
     overflow: hidden;
-    border: 4px red;
+    /*border: 4px red;*/
     /*background: grey;*/
 }
 
@@ -45,17 +41,27 @@ body, html {
 }
 
 #nav-order {
-    float: center;
-    /*background: #cfebcc;*/
+    float: left;
     text-align: center;
-    text-shadow: #cfebcc;
+    text-shadow: 1px 2px #cfebcc;
 }
 
 #nav-order a {
-    float: left;
-    display: block;
-    text-align: center;
-    padding: 3px;
-    margin-top: 2.5em;
+    display: inline-block;
+    text-align: left;
+    padding: 15px;
+    margin-top: 0.7em;
 }
 
+
+/* - - - - - - - - - - - - Feature info - - - - - - - - - - - - */
+
+#home-page-featured {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+}
+
+#home-page-featured p {
+    text-align: center;
+}

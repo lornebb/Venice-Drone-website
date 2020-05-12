@@ -1,5 +1,9 @@
 Need to get an example read me to use! 
 
+12th May - 
+- fixed nav bar thing.
+- HOME page - CURRENT RELEASE FEATURE - Lets see how much this does my head in then hey! 
+
 11th May - 
 - Must remeber to open HOME on index.html to find the proper page!!!
 - img alt tags, knew i forgot about something.
