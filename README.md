@@ -8,6 +8,7 @@ Need to get an example read me to use!
 - *** insert nav bar hyper links
 - (done) found some sweet image tools on w3 - applyng to logo image - super cool.
 - *** DESIGN better top left logo
+- Add social media and Sign up form to conatct page
 
 11th May - 
 - (done) Must remeber to open HOME on index.html to find the proper page!!!

@@ -82,5 +82,9 @@ body, html {
 }
 
 .contact-table {
-    background-color: #ab9b89;
+    background-color: rgba(171,155,137, 0.7)
+}
+
+.contact-title {
+    margin-top: 50px;
 }
