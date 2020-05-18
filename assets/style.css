@@ -24,40 +24,37 @@ html {
 /* - - - - - - - - - - - - Nav Bar - - - - - - - - - - */
 
 #nav-bar {
+    height: 10vh;
     background-color: #eaebea;
-    padding-left: 5px;
-    padding-right: 5px;
-    /*position: absolute;*/
-    /*overflow: hidden;*/
+    margin: 0px;
+    padding: 0px;
 }
 
-.navbar-brand {
-    max-height: 40px;
-    max-width: 30%; 
-    overflow: visible;
-    padding-top: 0;
-    padding-bottom: 0;
+.navbar_content {
+    height: 95%;
+    padding: 0px;
 }
 
-.container-fluid li {
+.navbar_content ul {
+    height: 100%;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar_content li {
     display: inline-block;
 }
 
-#nav-order a {
-    /*display: inline-block;*/
-    text-align: left;
-    font-size: 10em;
-    margin-top: 0.7em;
-    color: initial;
-    text-shadow: 1px 1px #fff;
+.navbar-brand {
+    overflow: visible;
+    padding: 0px;
+    margin: 0px;
 }
 
-.logo-image-props {
-    filter: drop-shadow(8px 8px 10px gray);
-    filter: saturate(8);
-    filter: invert(100%);
+.navbar-brand img {
+    max-width: 60%;
+    max-height: 60%;
 }
-
 
 /* - - - - - - - - - - - - Feature info - - - - - - - - - - - - */
 
