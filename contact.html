@@ -1,84 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Venice Drone MS1 skeleton boilerplate idea</title>
+    <title>Venice Drone MS1 Website</title>
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
-    <link rel="stylesheet" href="../assets/style.css" type="text/css" />
-  </head>
-  <body>
-    <div id="nav-bar" class="row u-full-width">
-        <div id="logo-title u-max-full-width" class="one columns">
-            <div id="header-logo-image">
-                <img src="assets/img/headerlogotext.jpg" alt="band logo small" class="u-max-full-width logo-image-props">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="./assets/style.css" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <a class="navbar-brand" href="#">Venice Drone</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="index.html">Home <span
+                            class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="releases.html">Releases</a>
+                    <a class="nav-item nav-link" href="gigs.html">Gigs</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Your Choice:
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">GET STRESSED</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Take a Rest</a>
+                        </div>
+                    </li>
+                </div>
             </div>
-            <!--<h6>Venice <br> Drone</h6>-->
-        </div>
-            
-        <div id="nav-order" class="eleven columns">
-            <a href="index.html">Home</a>
-            |
-            <a href="releases.html">Releases</a>
-            |
-            <a href="gigs.html">Gigs</a>
-            |
-            <a href="contact.html">Contact</a>
-        </div>
+        </nav>
+    </header>
+    <div class="section-heading">
+        <h1 class="section-heading-title">
+            Get Contacted
+        </h1>
+    </div>
+    <div class="section">
+        <form class="contact-us-form">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll sell your email to the highest bidder.</small>
+              </div>
+            <h6>How much do you love Venice Drone?</h6>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                    value="option1">
+                <label class="form-check-label" for="inlineRadio1">Loads</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                    value="option2">
+                <label class="form-check-label" for="inlineRadio2">A little bit</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"
+                    disabled>
+                <label class="form-check-label" for="inlineRadio3">Hate them</label>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary">Sign me up!</button>
+        </form>
     </div>
 
-    <div class="background-image">
-        <div id="contact-centre-frame">
-            <div class="row contact-table">
-                <div class="two columns">
-                    <p></p>
-                </div>
-                <div class="eight columns">
-                    <h4 class="contact-title">Contact</h4>
-                </div>
-                <div class="two columns">
-                    <p></p>
-                </div>
-            </div>
-            <div class="row contact-table">
-                <div class="two columns">
-                    <br>
-                </div>
-                <table class="u-full-width eight columns">
-                    <tbody>
-                        <tr>
-                        <td>Booking</td>
-                        <td>UK</td>
-                        <td>booking@venicedrone.com</td>
-                        </tr>
-                        <tr>
-                        <td>Booking</td>
-                        <td>ROW</td>
-                        <td>BookingROW@venicedrone.com</td>
-                        </tr>
-                        <tr>
-                        <td>Press</td>
-                        <td>UK & ROW</td>
-                        <td>Press@pressjunkie.com</td>
-                        </tr>
-                        <tr>
-                        <td>Management</td>
-                        <td>UK & ROW</td>
-                        <td>Manager@wewearthesuits.com</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <div class="two columns">
-                    <br>
-                </div>
-            </div>
-        </div>
+    <div class="section-heading">
+        <h1 class="section-heading-title">
+            Make Contact
+        </h1>
     </div>
 
-    
-    
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  </body>
+</body>
+
 </html>

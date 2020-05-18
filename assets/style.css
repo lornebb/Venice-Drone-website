@@ -1,14 +1,31 @@
+/* COLOUR PALETTE
+
+Black - #161614
+ 
+Teal - #6d95aa
+
+Red - #b54c49
+
+Grey - #bec1b9
+
+White - #eaebea */
+
 body {
     font-family: DM Mono;
 }
 
-/*body,
-html {
-    height: 100%;
-}*/
-
 /* - - - - - - - - - - - - ALL - - - - - - - - - - - - */
 
+.section-heading h1 {
+    text-align: center;
+    padding: 0.7em;
+    background-color: #6d95aa;
+    margin: 0px;
+}
+
+.section {
+    background-color: ;
+}
 
 /* - - - - - - - - - - - - HOME - - - - - - - - - - - - */
 /* - - - - - - - - - - - - Home Page - - - - - - - - - - */
@@ -23,72 +40,41 @@ html {
 
 /* - - - - - - - - - - - - Nav Bar - - - - - - - - - - */
 
-#nav-bar {
-    height: 10vh;
+.navbar {
     background-color: #eaebea;
-    margin: 0px;
-    padding: 0px;
-}
-
-.navbar_content {
-    height: 95%;
-    padding: 0px;
-}
-
-.navbar_content ul {
-    height: 100%;
-    padding-left: 0px;
-    margin-bottom: 0px;
-}
-
-.navbar_content li {
-    display: inline-block;
+    font-family: DM Mono;
 }
 
 .navbar-brand {
-    overflow: visible;
-    padding: 0px;
-    margin: 0px;
-}
-
-.navbar-brand img {
-    max-width: 60%;
-    max-height: 60%;
+    font-weight: 900;
+    font-size: 1.5em;
 }
 
 /* - - - - - - - - - - - - Feature info - - - - - - - - - - - - */
-
-.background-featured {
-
-    background-color: #a2a338;
-}
-
-#home-page-featured {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-}
-
-#home-page-featured p {
-    text-align: center;
-    padding: 2%;
-}
 
 /* - - - - - - - - - - - - CONTACT - - - - - - - - - - - - */
-/* - - - - - - - - - - - - Feature info - - - - - - - - - - - - */
 
-#contact-centre-frame {
-    position: absolute;
-    width: 100%;
-    top: 50%;
+.contact-us-form {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.contact-table {
-    background-color: rgba(171, 155, 137, 0.7)
+.contact-us-form {
+    padding: 1.5em;
+
 }
 
-.contact-title {
-    margin-top: 50px;
+.form-check-inline {
+    font-size: 0.8em;
+}
+
+.btn-primary {
+    background-color: #6d95aa;
+}
+
+.btn-primary:hover {
+    background-color: #b54c49;
 }
 
 /* - - - - - - - - - - - - Footer - - - - - - - - - - - - */
