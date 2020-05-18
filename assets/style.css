@@ -2,54 +2,54 @@ body {
     font-family: DM Mono;
 }
 
-body, html {
+/*body,
+html {
     height: 100%;
-}
+}*/
+
+/* - - - - - - - - - - - - ALL - - - - - - - - - - - - */
+
 
 /* - - - - - - - - - - - - HOME - - - - - - - - - - - - */
-/* - - - - - - - - - - - - Background & Nav Logo Image - Home Page - - - - - - - - - - */
-
-.background-image {
+/* - - - - - - - - - - - - Home Page - - - - - - - - - - */
+/* - - - - - - - - - - - - Background image - - - - -- - */
+/*.background-image {
     background-image: url("../assets/img/background1.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-#header-logo-image {
-    width: 46px;
-    height: 46px;
-    border-radius: 60%;
-    overflow: hidden;
-    margin-top: 1px;
-    margin-left: 10%;
-}
+}*/
 
 /* - - - - - - - - - - - - Nav Bar - - - - - - - - - - */
 
 #nav-bar {
-    padding: 0px 5px;
-    position: absolute;
-    overflow: hidden;
+    background-color: #eaebea;
+    padding-left: 5px;
+    padding-right: 5px;
+    /*position: absolute;*/
+    /*overflow: hidden;*/
 }
 
-#logo-title {
-    float: right;
+.navbar-brand {
+    max-height: 40px;
+    max-width: 30%; 
+    overflow: visible;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
-#nav-order {
-    float: left;
-    text-align: left;
-    text-shadow: 1px 2px #cfebcc;
-    padding: 15px;
+.container-fluid li {
+    display: inline-block;
 }
 
 #nav-order a {
     /*display: inline-block;*/
     text-align: left;
+    font-size: 10em;
     margin-top: 0.7em;
-    text-shadow: 1px 2px #cfebcc;
+    color: initial;
+    text-shadow: 1px 1px #fff;
 }
 
 .logo-image-props {
@@ -60,6 +60,11 @@ body, html {
 
 
 /* - - - - - - - - - - - - Feature info - - - - - - - - - - - - */
+
+.background-featured {
+
+    background-color: #a2a338;
+}
 
 #home-page-featured {
     position: absolute;
@@ -82,9 +87,16 @@ body, html {
 }
 
 .contact-table {
-    background-color: rgba(171,155,137, 0.7)
+    background-color: rgba(171, 155, 137, 0.7)
 }
 
 .contact-title {
     margin-top: 50px;
+}
+
+/* - - - - - - - - - - - - Footer - - - - - - - - - - - - */
+
+.footer {
+    display: flex;
+    background-color: #45a1ff;
 }
