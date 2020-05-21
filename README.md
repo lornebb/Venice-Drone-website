@@ -1,5 +1,8 @@
 Need to get an example read me to use! 
 
+Contact page - 
+copied copy  from Idles (band) contact page and modified, as they had a healthy amount of copy on there to flesh out my make believe contact page
+
 12th May - 
 - (done) fixed nav bar hover and float.
 - *** HOME page - CURRENT RELEASE FEATURE - Lets see how much this does my head in then hey! 

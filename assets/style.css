@@ -25,6 +25,7 @@ body {
 
 .section {
     background-color: ;
+    margin: 10%;
 }
 
 /* - - - - - - - - - - - - HOME - - - - - - - - - - - - */
@@ -61,8 +62,16 @@ body {
 }
 
 .contact-us-form {
-    padding: 1.5em;
+    padding: 1.2em;
+}
 
+.form-check {
+    padding-bottom: 15px;
+    padding-left: 5px;
+}
+
+.small-print {
+    font-size: 0.6em;
 }
 
 .form-check-inline {
@@ -77,9 +86,20 @@ body {
     background-color: #b54c49;
 }
 
+.contact-us-form h6 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*contact-listing {
+    
+}*/
+
+
 /* - - - - - - - - - - - - Footer - - - - - - - - - - - - */
 
 .footer {
     display: flex;
     background-color: #45a1ff;
 }
+
