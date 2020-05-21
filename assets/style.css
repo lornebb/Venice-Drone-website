@@ -129,17 +129,25 @@ body {
 
 #footer {
     background-color: #eaebea;
+    height: 50%;
 }
 
 #footer-left-text {
+    font-size: 0.75em;
     padding: 20px;
     color: #161614;
     text-align: center;
+    margin-bottom: 0rem;
 }
 
-.footer-logo a img {
-    background-image: rgba(0, 0, 0, 0.25);
-    background-size: 75%;
-    background-repeat: no-repeat;
-  }
+.footer-logo {
+    padding: 3vh;
+}
 
+.social-links {
+    padding: 3vh;
+}
+
+.fab {
+    color: grey;
+}
