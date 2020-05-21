@@ -16,6 +16,14 @@ body {
 
 /* - - - - - - - - - - - - ALL - - - - - - - - - - - - */
 
+.section-background-top {
+    background-image: url("./img/people1.jpeg");
+}
+
+.section-background-middle {
+    background-image: url("./img/people2.jpeg");
+}
+
 .section-heading h1 {
     text-align: center;
     padding: 0.7em;
@@ -24,8 +32,16 @@ body {
 }
 
 .section {
-    background-color: ;
-    margin: 10%;
+    color: #bec1b9;
+}
+
+.section-heading-title {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.active {
+    text-decoration: underline;
 }
 
 /* - - - - - - - - - - - - HOME - - - - - - - - - - - - */
@@ -54,6 +70,10 @@ body {
 /* - - - - - - - - - - - - Feature info - - - - - - - - - - - - */
 
 /* - - - - - - - - - - - - CONTACT - - - - - - - - - - - - */
+
+.contact-container {
+    padding: 1.2em;
+}
 
 .contact-us-form {
     width: 50%;
@@ -91,9 +111,22 @@ body {
     padding-bottom: 5px;
 }
 
-/*contact-listing {
-    
-}*/
+.contact-listing {
+    margin-bottom: 3vh;
+    text-align: center;
+}
+
+.contact-listing h6 {
+    margin: 0;
+}
+
+.contact-listing p {
+    margin: 0;
+}
+
+.contact-listing a {
+    font-family: roboto;
+}
 
 
 /* - - - - - - - - - - - - Footer - - - - - - - - - - - - */
@@ -102,4 +135,3 @@ body {
     display: flex;
     background-color: #45a1ff;
 }
-
