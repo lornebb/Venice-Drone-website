@@ -12,7 +12,12 @@ White - #eaebea */
 
 body {
     font-family: DM Mono;
+    height: 100%;
 }
+
+/*.fill-page-min {
+
+}*/
 
 /* - - - - - - - - - - - - ALL - - - - - - - - - - - - */
 
@@ -48,9 +53,6 @@ body {
     text-decoration: underline;
 }
 
-/* - - - - - - - - - - - - HOME - - - - - - - - - - - - */
-/* - - - - - - - - - - - - Home Page - - - - - - - - - - */
-
 /* - - - - - - - - - - - - Nav Bar - - - - - - - - - - */
 
 .navbar {
@@ -63,9 +65,25 @@ body {
     font-size: 1.5em;
 }
 
-/* - - - - - - - - - - - - Feature info - - - - - - - - - - - - */
+/* - - - - - - - - - - - - HOME - - - - - - - - - - - - */
+/* - - - - - - - - - - - - Home Page - - - - - - - - - - */
+
+.home-page-buttons {
+    padding: 1.2em;    
+}
+
+.btn {
+    opacity: 0.9;
+}
 
 /* - - - - - - - - - - - - CONTACT - - - - - - - - - - - - */
+
+.gig-table-section {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1.2em;
+}
 
 .contact-container {
     padding: 1.2em;
