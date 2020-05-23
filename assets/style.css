@@ -85,19 +85,42 @@ body {
 
 /* - - - - - - - - - - - - HOME - - - - - - - - - - - - */
 
-.simple-discog-list {
+
+
+/* - - - - - - - - - - - - Releases - - - - - - - - - - - - */
+
+.simple-discog-list { 
     width: 80%;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 20px;
+    margin-top: 0px;
     padding: 1.2em;
+    color: black;
 }
 
-/* - - - - - - - - - - - - Releases - - - - - - - - - - - - */
+.media {
+    background-color: rgba(190,193,185, 0.8);
+}
 
 .release-container {
     padding: 12px;
     font-size: 0.9em;
+}
+
+.social-icon-releases-container {
+    word-spacing: 1rem;
+    font-size: 1.1rem;
+    line-height: initial;
+}
+
+.track-order {
+    font-family: roboto;
+    letter-spacing: 1px;
+}
+
+.release-container-outer li {
+    padding: 10px;
+    margin: 10px;
 }
 
 /* - - - - - - - - - - - - Gigs - - - - - - - - - - - - */

@@ -1,7 +1,18 @@
 Need to get an example read me to use! 
 
+THINGS to figure out!!!
+- ICONS in releases... 
+- Background opacity!!! 
+- Background images, static, scroll over the top... 
+- background rounded edges.. or just a better deign idea on it... iut look sBUTTERS
+- STOP FONT FROM LOADING LAST!!!
+- nav bar - Releases AUDIO and VIDEO options? 
+- add video to releases page
+- finish index.html
+
+
 Releases
- 
+
 
 Contact page - 
 copied copy  from Idles (band) contact page and modified, as they had a healthy amount of copy on there to flesh out my make believe contact page
