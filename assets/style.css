@@ -15,22 +15,21 @@ body {
     height: 100%;
 }
 
-/*.fill-page-min {
-
-}*/
-
 /* - - - - - - - - - - - - ALL - - - - - - - - - - - - */
 
 .section-background-top {
     background-image: url("./img/people1.jpeg");
+    background-position: center;
 }
 
 .section-background-middle {
     background-image: url("./img/people2.jpeg");
+    background-position: center;
 }
 
 .section-background-bottom {
     background-image: url("./img/people3.jpeg");
+    background-position: center;
 }
 
 .section-heading h1 {
@@ -51,6 +50,14 @@ body {
 
 .active {
     text-decoration: underline;
+}
+
+.btn-primary {
+    background-color: #b54c49;
+}
+
+.btn-primary:hover {
+    background-color: #6d95aa;
 }
 
 /* - - - - - - - - - - - - Nav Bar - - - - - - - - - - */
@@ -76,7 +83,24 @@ body {
     opacity: 0.9;
 }
 
-/* - - - - - - - - - - - - CONTACT - - - - - - - - - - - - */
+/* - - - - - - - - - - - - HOME - - - - - - - - - - - - */
+
+.simple-discog-list {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    padding: 1.2em;
+}
+
+/* - - - - - - - - - - - - Releases - - - - - - - - - - - - */
+
+.release-container {
+    padding: 12px;
+    font-size: 0.9em;
+}
+
+/* - - - - - - - - - - - - Gigs - - - - - - - - - - - - */
 
 .gig-table-section {
     width: 50%;
@@ -84,6 +108,8 @@ body {
     margin-left: auto;
     padding: 1.2em;
 }
+
+/* - - - - - - - - - - - - CONTACT - - - - - - - - - - - - */
 
 .contact-container {
     padding: 1.2em;
@@ -112,14 +138,6 @@ body {
     font-size: 0.8em;
 }
 
-.btn-primary {
-    background-color: #6d95aa;
-}
-
-.btn-primary:hover {
-    background-color: #b54c49;
-}
-
 .contact-us-form h6 {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -140,6 +158,18 @@ body {
 
 .contact-listing a {
     font-family: roboto;
+}
+
+.social-icon-container {
+    font-size: 4em;
+}
+
+.social-icon-container li i {
+    color: #b54c49;
+}
+
+.social-icon-container ul {
+    margin: 1rem;
 }
 
 
