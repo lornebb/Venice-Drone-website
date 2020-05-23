@@ -1,7 +1,7 @@
 Need to get an example read me to use! 
 
 Releases
-Hover over image to link to spotify idea came from an MS1 project by Kieran Mrray posted in the Slack. He had his discography as just the artwork, and then a hover effect blurs it and shows links to spotify.  
+ 
 
 Contact page - 
 copied copy  from Idles (band) contact page and modified, as they had a healthy amount of copy on there to flesh out my make believe contact page
