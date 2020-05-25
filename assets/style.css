@@ -99,7 +99,7 @@ body {
 
 .video-container {
     display: block;
-    width: 50%;
+    width: 90%;
     margin-right: auto;
     margin-left: auto;
 } 
@@ -113,10 +113,19 @@ body {
 /* - - - - - - - - - - - - Releases - - - - - - - - - - - - */
 
 @media (max-width:575px) {
-    
     .media img {  
         padding: 10px;
     }  
+}
+
+@media (min-width:576px) {
+    .video-container {
+        height: 50vh;
+    }
+
+    .iframe {
+        background-size: cover;
+    }
 }
 
 .simple-discog-list { 
@@ -162,13 +171,22 @@ body {
     margin: 0px;
 }
 
+.media-list-padding {
+    height: 15px;
+}
+
+.media .video-container {
+    height: 100%;
+}
+
 /* - - - - - - - - - - - - Gigs - - - - - - - - - - - - */
 
 .gig-table-section {
-    width: 50%;
+    /*width: 50%;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto;*/
     padding: 1.2em;
+    overflow: auto;
 }
 
 /* - - - - - - - - - - - - CONTACT - - - - - - - - - - - - */
