@@ -11,25 +11,36 @@ Grey - #bec1b9
 White - #eaebea */
 
 body {
-    font-family: DM Mono;
+    font-family: "DM Mono", monospace;
     height: 100%;
 }
 
 /* - - - - - - - - - - - - ALL - - - - - - - - - - - - */
 
+.entire-section-wrapper {
+    /*height: calc( 100vh - 62px);*/
+}
+
+.section-background {
+    height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    overflow: hidden;
+}
+
 .section-background-top {
     background-image: url("./img/people1.jpeg");
-    background-position: center;
 }
 
 .section-background-middle {
     background-image: url("./img/people2.jpeg");
-    background-position: center;
 }
 
 .section-background-bottom {
     background-image: url("./img/people3.jpeg");
-    background-position: center;
 }
 
 .section-heading h1 {
@@ -41,6 +52,7 @@ body {
 
 .section {
     color: #bec1b9;
+    height: 100%;
 }
 
 .section-heading-title {
@@ -59,6 +71,8 @@ body {
 .btn-primary:hover {
     background-color: #6d95aa;
 }
+
+
 
 /* - - - - - - - - - - - - Nav Bar - - - - - - - - - - */
 
@@ -82,6 +96,15 @@ body {
 .btn {
     opacity: 0.9;
 }
+
+.video-container {
+    display: block;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+} 
+
+
 
 /* - - - - - - - - - - - - HOME - - - - - - - - - - - - */
 

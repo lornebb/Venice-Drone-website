@@ -1,6 +1,9 @@
 Need to get an example read me to use! 
 
 THINGS to figure out!!!
+
+add new class to all sections
+- MQ for release / media box, img position on top / text underneath
 - ICONS in releases... 
 - Background opacity!!! 
 - Background images, static, scroll over the top... 
