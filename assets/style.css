@@ -112,6 +112,13 @@ body {
 
 /* - - - - - - - - - - - - Releases - - - - - - - - - - - - */
 
+@media (max-width:575px) {
+    
+    .media img {  
+        padding: 10px;
+    }  
+}
+
 .simple-discog-list { 
     width: 80%;
     margin-right: auto;
@@ -122,6 +129,7 @@ body {
 }
 
 .media {
+    padding: 10px;
     background-color: rgba(190,193,185, 0.8);
 }
 
@@ -133,7 +141,9 @@ body {
 .social-icon-releases-container {
     word-spacing: 1rem;
     font-size: 1.1rem;
+    text-align: left;
     line-height: initial;
+    overflow-wrap: break-word;
 }
 
 .track-order {
@@ -141,9 +151,15 @@ body {
     letter-spacing: 1px;
 }
 
-.release-container-outer li {
-    padding: 10px;
-    margin: 10px;
+.track-order {
+    overflow: visible;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.media .row {
+    margin: 0px;
 }
 
 /* - - - - - - - - - - - - Gigs - - - - - - - - - - - - */
@@ -192,7 +208,8 @@ body {
 .contact-listing {
     margin-bottom: 3vh;
     text-align: center;
-}
+    overflow-wrap: break-word;
+    }
 
 .contact-listing h6 {
     margin: 0;
@@ -216,6 +233,10 @@ body {
 
 .social-icon-container ul {
     margin: 1rem;
+}
+
+.social-links {
+    text-align: center;
 }
 
 
