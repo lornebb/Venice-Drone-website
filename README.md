@@ -3,10 +3,12 @@ Need to get an example read me to use!
 THINGS to figure out!!!
 
 add new class to all sections
+
+color - palette and ideas for background images
 - MQ for release / media box, img position on top / text underneath
 - artwork media break poit in releases... 
-- Background opacity!!! 
-- Background images, static, scroll over the top... 
+- done -- Background opacity!!! 
+- done - Background images, static, scroll over the top... 
 - background rounded edges.. or just a better deign idea on it... iut look sBUTTERS
 - STOP FONT FROM LOADING LAST!!!
 - nav bar - Releases AUDIO and VIDEO options? 
