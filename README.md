@@ -19,6 +19,7 @@ The site is designed to be easily modifiable, since Venice Drone are an active b
 -----------------------------
 
 ### **Reference and tone**
+
 Other similar sites I referenced were *Radioheads* 'WASTE' site (<https://www.wasteheadquarters.com/>) and *Idles* website (<https://www.idlesband.com/>) Particlarly the titles, dimentions, simplicity and direct tone.
 
 ![Radiohead website screenshot](assets/img/Readmerefimgs/radiohead_ref.png "radiohead screenshot")
@@ -26,7 +27,6 @@ Other similar sites I referenced were *Radioheads* 'WASTE' site (<https://www.wa
 ![Idles website screenshot 1](assets/img/Readmerefimgs/idelsref1.png "idles screenshot 1")
 
 ![Idles website screenshot 2](assets/img/Readmerefimgs/idelesref2.png "idles screenshot 2")
-
 
 -----------------------------
 
@@ -36,11 +36,31 @@ The main colour theme was around the title bar blue, which is a muted colour tha
 
 Colour Palette
 
-* ![#6d95aa](https://placehold.it/15/6d95aa/000000?text=+) `#6d95aa` - Muted Teal / Main Banner / Logo color
-* ![#b54c49](https://placehold.it/15/b54c49/000000?text=+) `#b54c49` - Mute Red / Alert / Focus color
-* ![#bec1b9](https://placehold.it/15/bec1b9/000000?text=+) `#bec1b9` - Off-Grey / background color
-* ![#eaebea](https://placehold.it/15/eaebea/000000?text+=) `#eaebea` - Off-White text color
-* ![#161614](https://placehold.it/15/161614/000000?text=+) `#161614` - Off-Black text color
+* 
+
+![#6d95aa](https://placehold.it/15/6d95aa/000000?text=+)
+
+`#6d95aa` - Muted Teal / Main Banner / Logo color
+* 
+
+![#b54c49](https://placehold.it/15/b54c49/000000?text=+)
+
+`#b54c49` - Mute Red / Alert / Focus color
+* 
+
+![#bec1b9](https://placehold.it/15/bec1b9/000000?text=+)
+
+`#bec1b9` - Off-Grey / background color
+* 
+
+![#eaebea](https://placehold.it/15/eaebea/000000?text+=)
+
+`#eaebea` - Off-White text color
+* 
+
+![#161614](https://placehold.it/15/161614/000000?text=+)
+
+`#161614` - Off-Black text color
 
 Fonts
 I used a sans-serif for the main font, the sharpness off DM Mono was what I settled on.
@@ -64,79 +84,95 @@ and a secondary font of Roboto.
 
 ### _Wireframes:_
 
-![Radiohead website screenshot](assets/img/Readmerefimgs/radiohead_ref.png "radiohead screenshot")
+The original wireframe showed a simpler concept of one page internally scrollable content. Bold moving .gif backgrounds, hovering nav bar and floating social icons.
 
+![Origianl Wire Frame screenshot](assets/img/Readmerefimgs/wireframeforreadme/ver14.png "wireframe screenshot")
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+![Origianl Wire Frame screenshot](assets/img/Readmerefimgs/wireframeforreadme/ver12.png "wireframe screenshot")
+
+![Origianl Wire Frame screenshot](assets/img/Readmerefimgs/wireframeforreadme/ver13.png "wireframe screenshot")
+
+![Origianl Wire Frame screenshot](assets/img/Readmerefimgs/wireframeforreadme/ver11.png "wireframe screenshot")
+
+However, this format proved to be too on the nose, too informal, and the function was lost to cramped smaller screen sizes, and it didn't translate very well to mobile. 
+
+After some redeigning, version 2 wireframes emerged. 
+
+![Origianl Wire Frame screenshot](assets/img/Readmerefimgs/wireframeforreadme/ver21.png "wireframe screenshot")
+
+![Origianl Wire Frame screenshot](assets/img/Readmerefimgs/wireframeforreadme/ver22.png "wireframe screenshot")
+
+![Origianl Wire Frame screenshot](assets/img/Readmerefimgs/wireframeforreadme/ver23.png "wireframe screenshot")
+
+![Origianl Wire Frame screenshot](assets/img/Readmerefimgs/wireframeforreadme/ver24.png "wireframe screenshot")
+
+Some features changed during the build, but the change from version 1 to version 2 proved to be a much more functional platform to build from.
 
 ## Features
 
-### _Feature 1_
+### Home
 
+The home page is designed to provide the most up to date news in three simple features. The most important features are *Latest Music*, *Latest Video* and *Next Gig*.
 
+### Releases
 
+The releases page is designed to, once again, show the most recent and relevant release at the top and beneath it, the discography, in chronological order. 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+### Gigs
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+Gigs page has a direct information table, venue, ticket link to buy tickets and all in date order. 
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+### Contact
+
+Contact page, again, focuses on what is important to the user. Firstly, mailing list to keep up to date. Simple input box with some on-brand humour beneath it. Beneath that is the various social network and external content links under another on brand sarcastic banner, and beneath that is the least used, necessary, but not fan focused promoter and managerial contacts.
 
 ### Features Left to Implement
-- Another feature idea
+
+* Features that I plan to integrate are a media player on the releases page, playlist maker, and social media live stream ticker section.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+As per the requirements of the assignements, the technologies used in this site are **[HTML5](https://w3.org/html)** and **[CSS](https://w3.org/css)**. Any additional technology is provided by included **[Bootstrap](https://getbootstrap.com)** scripts.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+### Tools Used
 
+* [Visual Studio Code](https://code.visualstudio.com/) -  The project used the **Visual Studio** IDE to develop the website linked with **Github** for version control.
+* [Bootstrap 4.5](https://getbootstrap.com/) -  The project used the **Bootstrap 4.5** for a responsive grid system.
+* [Font Awesome 5](https://fontawesome.com/) - The project used the **Font Awesome 5** for a icons throughout the site.
+* [HTML Validator](https://validator.w3.org/) - The project used the **HTML Validator** to validate and find errors in the HTML.
+* [CSS Validator](https://jigsaw.w3.org/css-validator/) -The project used the **CSS Validator** to validate and find errors in the CSS.
+* [Balsamiq](https://balsamiq.com) https://balsamiq.com) -The project used the **Balsamiq** to generate wireframes for the site.
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+I've been testing the site with the band themselves and with their sposes and partners. Focusing on features that they deemed necessary. The final version and the final wireframe shows the journey through testing to release. The Logo in the nav bar prooved too distracting first, followed by the .gif background idea.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+I used VS Code Extentions to preview the site in different browsers, via Chrome. Extensively testing the layout changes at all media breakpoints. This process was made easier with **Bootstrap**. 
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+There is one layout issue that is really annoying me in the medium break point where the media boxes align the album artwork and the text left to the box, leaving a lot of wasted space on the right of the box. 
 
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+
+* Different values for environment variables (Heroku Config Vars)?
+* Different configuration files?
+* Separate git branch?
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
-
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+* The copy used for the _make contact_ section was copied and heavily edited for privacy from the [Idles Press & Bookings](https://www.idlesband.com/press-bookings/) page.
 
 ### Media
-- The photos used in this site were obtained from ...
+
+* The photos used in this site for the background were obtained from [Pexels](www.Pexels.com).
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+* I received inspiration for this project from X
