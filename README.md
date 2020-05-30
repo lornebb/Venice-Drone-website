@@ -149,7 +149,10 @@ I've been testing the site with the band themselves and with their sposes and pa
 
 I used VS Code Extentions to preview the site in different browsers, via Chrome. Extensively testing the layout changes at all media breakpoints. This process was made easier with **Bootstrap**. 
 
-There is one layout issue that is really annoying me in the medium break point where the media boxes align the album artwork and the text left to the box, leaving a lot of wasted space on the right of the box. 
+There is one layout issue that is really annoying me in the medium break point where the media boxes align the album artwork and the text left to the box, leaving a lot of wasted space on the right of the box.
+
+More testing and listing as it happened, some features that came and went in a to do list,
+ [testing and features to do list](assets/img/Readmerefimgs/chrono_todolist.md).
 
 ## Deployment
 
