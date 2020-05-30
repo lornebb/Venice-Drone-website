@@ -27,6 +27,14 @@ body {
     overflow: hidden;
 }
 
+.section-background-blank {
+    height: 80%;
+    background-color: #bec1b9;
+    padding-top: 08vh;
+    padding-bottom: 08vh;
+    overflow: hidden;
+}
+
 .section-background-top {
     background-image: url("/Users/lorneashley/Documents/GitHub/Milestone1_Venice_Drone_Website/assets/img/background/people-in-concert-1763075.jpg");
 }
@@ -38,10 +46,6 @@ body {
 .section-background-bottom {
     background-image: url("/Users/lorneashley/Documents/GitHub/Milestone1_Venice_Drone_Website/assets/img/background/forest-under-clouds-1287075.jpg");
 }
-
-/*.section-background-colour {
-    background-color: #eaebea;
-}*/
 
 .section-heading h1 {
     text-align: center;
@@ -88,7 +92,6 @@ body {
     font-size: 1.5em;
 }
 
-/* - - - - - - - - - - - - HOME - - - - - - - - - - - - */
 /* - - - - - - - - - - - - Home Page - - - - - - - - - - */
 
 .home-page-buttons {
@@ -110,28 +113,7 @@ body {
     color: black;
 }
 
-
-/* - - - - - - - - - - - - HOME - - - - - - - - - - - - */
-
-
-
 /* - - - - - - - - - - - - Releases - - - - - - - - - - - - */
-
-/*@media (max-width:575px) {
-    .media img {  
-        padding: 10px;
-    }  
-}
-
-@media (min-width:576px) {
-    .video-container {
-        height: 50vh;
-    }
-
-    .iframe {
-        background-size: cover;
-    }
-}*/
 
 .simple-discog-list {
     width: 100%;
@@ -164,9 +146,6 @@ body {
 .track-order {
     font-family: roboto;
     letter-spacing: 1px;
-}
-
-.track-order {
     overflow: visible;
     padding: 0px;
     margin: 0px;
@@ -203,7 +182,8 @@ body {
 }
 
 .contact-us-form {
-    width: 50%;
+    color: black;
+    width: 80%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -264,6 +244,9 @@ body {
     text-align: center;
 }
 
+.contact-listing-text-color {
+    color: black;
+}
 
 /* - - - - - - - - - - - - Footer - - - - - - - - - - - - */
 
