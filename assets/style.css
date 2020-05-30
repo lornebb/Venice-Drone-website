@@ -84,7 +84,7 @@ body {
 
 .navbar {
     background-color: #eaebea;
-    font-family: DM Mono;
+    font-family: "DM Mono";
 }
 
 .navbar-brand {
@@ -92,7 +92,7 @@ body {
     font-size: 1.5em;
 }
 
-/* - - - - - - - - - - - - Home Page - - - - - - - - - - */
+/* - - - - - - - - - - - - Home Page - - - - - - - - - */
 
 .home-page-buttons {
     padding: 1.2em;
@@ -113,7 +113,7 @@ body {
     color: black;
 }
 
-/* - - - - - - - - - - - - Releases - - - - - - - - - - - - */
+/* - - - - - - - - - - - - Releases - - - - - - - - - - */
 
 .simple-discog-list {
     width: 100%;
@@ -144,7 +144,7 @@ body {
 }
 
 .track-order {
-    font-family: roboto;
+    font-family: Roboto;
     letter-spacing: 1px;
     overflow: visible;
     padding: 0px;
@@ -175,7 +175,7 @@ body {
     overflow: auto;
 }
 
-/* - - - - - - - - - - - - CONTACT - - - - - - - - - - - - */
+/* - - - - - - - - - - - - CONTACT - - - - - - - - - - - */
 
 .contact-container {
     padding: 1.2em;
@@ -225,7 +225,7 @@ body {
 }
 
 .contact-listing a {
-    font-family: roboto;
+    font-family: Roboto;
 }
 
 .social-icon-container {
@@ -248,7 +248,7 @@ body {
     color: black;
 }
 
-/* - - - - - - - - - - - - Footer - - - - - - - - - - - - */
+/* - - - - - - - - - - - - Footer - - - - - - - - - - - */
 
 #footer {
     background-color: #eaebea;
