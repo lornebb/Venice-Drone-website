@@ -32,7 +32,7 @@ Other similar sites I referenced were *Radioheads* 'WASTE' site (<https://www.wa
 
 ### **Design Choices**
 
-The main colour theme was around the title bar blue, which is a muted colour that the band uses for logos. I then picked the theme based on that colour, using Coolers (<https://coolors.co/>) and highlted a dull but contrasting red for highlighted notes.
+The main colour theme was around the title bar blue, which is a muted colour that the band uses for logos. I then picked the theme based on that colour, using Coolers (<https://coolors.co/>) and highlighted a dull but contrasting red for highlighted notes.
 
 Colour Palette
 
@@ -43,11 +43,11 @@ Colour Palette
 * ![#161614](https://placehold.it/15/161614/000000?text=+) `#161614` - Off-Black text color
 
 Fonts
-I used a sans-serif for the main font, the sharpness off DM Mono was what I settled on.
+I used a sans-serif for the main font, the striking and sharp **DM Mono** was what I settled on.
 
 [Google Fonts DM Mono](https://fonts.google.com/specimen/DM+Mono "font link dm mono")
 
-and a secondary font of Roboto.
+and a secondary, complimentary, font of Roboto.
 
 [Google Fonts Roboto](https://fonts.google.com/specimen/Roboto?query=roboto "font link roboto")
 
@@ -76,7 +76,7 @@ The original wireframe showed a simpler concept of one page internally scrollabl
 
 However, this format proved to be too on the nose, too informal, and the function was lost to cramped smaller screen sizes, and it didn't translate very well to mobile. 
 
-After some redeigning, version 2 wireframes emerged. 
+After some redesigning, version 2 wireframes emerged. 
 
 ![Origianl Wire Frame screenshot](assets/img/Readmerefimgs/wireframeforreadme/ver21.png "wireframe screenshot")
 
@@ -104,7 +104,7 @@ Gigs page has a direct information table, venue, ticket link to buy tickets and 
 
 ### Contact
 
-Contact page, again, focuses on what is important to the user. Firstly, mailing list to keep up to date. Simple input box with some on-brand humour beneath it. Beneath that is the various social network and external content links under another on brand sarcastic banner, and beneath that is the least used, necessary, but not fan focused promoter and managerial contacts.
+Contact page, again, focuses on what is important to the user. Firstly, mailing list to keep up to date. Simple input box with some on-brand humour beneath it. Beneath that is the various social network and external content links under another on-brand sarcastic banner, and beneath that is the least used, necessary, but not fan-focused promoter and managerial contacts.
 
 ### Features Left to Implement
 
@@ -117,19 +117,19 @@ As per the requirements of the assignements, the technologies used in this site 
 ### Tools Used
 
 * [Visual Studio Code](https://code.visualstudio.com/) -  The project used the **Visual Studio** IDE to develop the website linked with **Github** for version control.
-* [Bootstrap 4.5](https://getbootstrap.com/) -  The project used the **Bootstrap 4.5** for a responsive grid system.
-* [Font Awesome 5](https://fontawesome.com/) - The project used the **Font Awesome 5** for a icons throughout the site.
+* [Bootstrap 4.5](https://getbootstrap.com/) -  The project used a **Bootstrap 4.5** CDN for a responsive grid system.
+* [Font Awesome 5](https://fontawesome.com/) - The project used the **Font Awesome 5** for icons throughout the site.
 * [HTML Validator](https://validator.w3.org/) - The project used the **HTML Validator** to validate and find errors in the HTML.
 * [CSS Validator](https://jigsaw.w3.org/css-validator/) -The project used the **CSS Validator** to validate and find errors in the CSS.
-* [Balsamiq](https://balsamiq.com) https://balsamiq.com) -The project used the **Balsamiq** to generate wireframes for the site.
+* [Balsamiq](https://balsamiq.com) - The project used the **Balsamiq** to create wireframes for the site.
 
 ## Testing
 
-I've been testing the site with the band themselves and with their sposes and partners. Focusing on features that they deemed necessary. The final version and the final wireframe shows the journey through testing to release. The Logo in the nav bar prooved too distracting first, followed by the .gif background idea.
+I've been testing the site with the band themselves and with their sposes and partners. Focusing on features that they deemed necessary, and tone that they find on-brand. The final version and the final wireframe shows the journey through testing to release. The Logo in the nav bar prooved too distracting first, followed by the .gif background idea - simplified the site. 
 
 I used VS Code Extentions to preview the site in different browsers, via Chrome. Extensively testing the layout changes at all media breakpoints. This process was made easier with **Bootstrap**. 
 
-There is one layout issue that is really annoying me in the medium break point where the media boxes align the album artwork and the text left to the box, leaving a lot of wasted space on the right of the box.
+There is one layout issue that is really annoying me in the medium break point where the media boxes align the album artwork and the text left to the box, leaving a lot of wasted space on the right of the box. And a <750px but >1080px alignment of the social icons in the contact page.
 
 More testing and listing as it happened, some features that came and went in a to do list,
  [testing and features to do list](assets/img/Readmerefimgs/chrono_todolist.md).
@@ -153,4 +153,4 @@ This site was made for educational purposes only by Lorne Ashley Brigham-Bowes, 
 
 ### Acknowledgements
 
-* I received inspiration for this project from Bootstrap themes, Dave at [EightArms](https://eightarms.co.uk/), and a thank you to my mentor, Antonjia.
+* I received inspiration for this project frommy fellow students and the wonderful team on slack, my good friend Dave at [EightArms](https://eightarms.co.uk/), and a thank you to my mentor, Antonjia.
