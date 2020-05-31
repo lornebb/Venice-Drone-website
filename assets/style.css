@@ -24,15 +24,15 @@ body {
 }
 
 .section-background-top {
-    background-image: url("./assets/img/background/people-in-concert.jpg");
+    background-image: url("../assets/img/background/people-in-concert.jpg");
 }
 
 .section-background-middle {
-    background-image: url("./assets/img/background/black-and-white-festival-music-musician.jpg");
+    background-image: url("../assets/img/background/black-and-white-festival-music-musician.jpg");
 }
 
 .section-background-bottom {
-    background-image: url("./assets/img/background/forest-under-clouds.jpg");
+    background-image: url("../assets/img/background/forest-under-clouds.jpg");
 }
 
 .section-heading h1 {
