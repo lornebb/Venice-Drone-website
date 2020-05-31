@@ -36,31 +36,11 @@ The main colour theme was around the title bar blue, which is a muted colour tha
 
 Colour Palette
 
-* 
-
-![#6d95aa](https://placehold.it/15/6d95aa/000000?text=+)
-
-`#6d95aa` - Muted Teal / Main Banner / Logo color
-* 
-
-![#b54c49](https://placehold.it/15/b54c49/000000?text=+)
-
-`#b54c49` - Mute Red / Alert / Focus color
-* 
-
-![#bec1b9](https://placehold.it/15/bec1b9/000000?text=+)
-
-`#bec1b9` - Off-Grey / background color
-* 
-
-![#eaebea](https://placehold.it/15/eaebea/000000?text+=)
-
-`#eaebea` - Off-White text color
-* 
-
-![#161614](https://placehold.it/15/161614/000000?text=+)
-
-`#161614` - Off-Black text color
+* ![#6d95aa](https://placehold.it/15/6d95aa/000000?text=+) `#6d95aa` - Muted Teal / Main Banner / Logo color
+* ![#b54c49](https://placehold.it/15/b54c49/000000?text=+) `#b54c49` - Mute Red / Alert / Focus color
+* ![#bec1b9](https://placehold.it/15/bec1b9/000000?text=+) `#bec1b9` - Off-Grey / background color
+* ![#eaebea](https://placehold.it/15/eaebea/000000?text+=) `#eaebea` - Off-White text color
+* ![#161614](https://placehold.it/15/161614/000000?text=+) `#161614` - Off-Black text color
 
 Fonts
 I used a sans-serif for the main font, the sharpness off DM Mono was what I settled on.
