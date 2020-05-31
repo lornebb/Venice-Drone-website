@@ -156,21 +156,16 @@ More testing and listing as it happened, some features that came and went in a t
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-* Different values for environment variables (Heroku Config Vars)?
-* Different configuration files?
-* Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+The site is hosted on GitHub Pages, which is was a simple process to execute. Testing the page after deployment proved another challenge, as my images and linked assets didn't work. A few more commits to the master branch, made easier by GitHub Pages proved a good solution for this. 
 
 ## Credits
+
+This site was made for educational purposes only by Lorne Ashley Brigham-Bowes, 2020. 
 
 ### Content
 
 * The copy used for the _make contact_ section was copied and heavily edited for privacy from the [Idles Press & Bookings](https://www.idlesband.com/press-bookings/) page.
+* CSS and HTML help was found on [MDN Web Docs](https://developer.mozilla.org/en-US/) and [Stack Overflow](https://stackoverflow.com/). 
 
 ### Media
 
@@ -178,4 +173,4 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Acknowledgements
 
-* I received inspiration for this project from X
+* I received inspiration for this project from Bootstrap themes, Dave at [EightArms](https://eightarms.co.uk/), and a thank you to my mentor, Antonjia.
