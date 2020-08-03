@@ -14,17 +14,34 @@
 
 <body>
     <header>
-        > nav
-        > jump to section - gigs
-        > jump to section - contact
-        > links - page - discography / releases
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- <a class="navbar-brand" href="#">Venice Drone</a> -->
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/navbar_logo_SML.jpg" width="125" height="30" alt="" loading="lazy">
+              </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#gig-section">Gigs</a>
+                    <a class="nav-item nav-link" href="#contact-section">Contact</a>
+                    <a class="nav-item nav-link" href="releases2.html">Releases</a>
+                </div>
+            </div>
+        </nav>
     </header>
     <section>
         - latest news
         - latest video
     </section>
-    <section>
+    <section id="gig-section">
         - gigs
+    </section>
+    <section id="contact-section">
+        - contact
     </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
