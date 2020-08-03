@@ -1,3 +1,10 @@
 body {
     background-color: #ffffff;
+    font-family: "DM Mono", monospace;
+    height: 100%;
+}
+
+.fab {
+    font-size: 1.2rem;
+    color: #d72638;
 }
