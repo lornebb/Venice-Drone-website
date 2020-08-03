@@ -6,5 +6,13 @@ body {
 
 .fab {
     font-size: 1.2rem;
-    color: #d72638;
+}
+
+.title-card-colour {
+    background-color: #FF570A;
+}
+
+.section-colour {
+    background-color: #ffffff
+    color: #ffffff;
 }
