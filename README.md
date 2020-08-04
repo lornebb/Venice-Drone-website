@@ -73,6 +73,13 @@ I wanted to achieve a useable website, with a tone and copy that represented the
 They are a secretive, non-ego driven band with very little desire to share personal stories and damage the music with their own images. For this reason an 'about me' section was omitted.
 
 The site is designed to be easily modifiable, since Venice Drone are an active band, when more content is released, it can easily be added to the site, and copied to the front page for a feature.
+Other sites I referenced were [_Radioheads_ 'WASTE' site ](https://www.wasteheadquarters.com/) and [_Idles_ website](https://www.idlesband.com/) Particlarly the titles, dimentions, simplicity and direct tone.
+
+![Radiohead website screenshot](wireframes/ref-radiohead_ref.png "radiohead screenshot")
+
+![Idles website screenshot 1](wireframes/ref-idelsref1.png "idles screenshot 1")
+
+![Idles website screenshot 2](wireframes/ref-idelesref2.png"idles screenshot 2")
 
 ### Fonts
 
@@ -94,110 +101,106 @@ The off set RGB light scatter and black hole image were striking enough, and len
 
 ## Wireframes
 
-Other sites I referenced were [_Radioheads_ 'WASTE' site ](<https://www.wasteheadquarters.com/>) and [_Idles_ website](<https://www.idlesband.com/>) Particlarly the titles, dimentions, simplicity and direct tone.
+![wireframe home](wireframes/wireframe-home-feature.png)
+![wireframe listings](wireframes/wireframe-listing-left-allign.png)
+![wireframe listings 2](wireframes/wireframe-listings.png)
+![wireframe realease collage](wireframes/wireframe-collage-releases.png)
+![wireframe connect](wireframes/wireframe-connect.png)
 
-![Radiohead website screenshot](wireframes/ref-radiohead_ref.png "radiohead screenshot")
-
-![Idles website screenshot 1](wireframes/ref-idelsref1.png "idles screenshot 1")
-
-![Idles website screenshot 2](wireframes/ref-idelesref2.png"idles screenshot 2")
-
----
-
-
-
-
-
----
-
-### _User Stories:_
-
-- As a long time fan of the band, I want to see the latest content at first glance and feel up to date.
-- As a new and curious fan of the band, I want to click through quickly and get a feel for what Venice Drone are.
-- As a club promoter, I want to get to the bands contact information as quickly as possible and contact them about a performance.
-- As a music lover, I want to listen to the bands music on my chosen platform.
-
----
-
-### _Wireframes:_
-
-The original wireframe showed a simpler concept of one page internally scrollable content. Bold moving .gif backgrounds, hovering nav bar and floating social icons.
-
-![Origianl Wire Frame screenshot](assets/img/Readmerefimgs/wireframeforreadme/ver14.png "wireframe screenshot")
-
-![Origianl Wire Frame screenshot](assets/img/Readmerefimgs/wireframeforreadme/ver12.png "wireframe screenshot")
-
-![Origianl Wire Frame screenshot](assets/img/Readmerefimgs/wireframeforreadme/ver13.png "wireframe screenshot")
-
-![Origianl Wire Frame screenshot](assets/img/Readmerefimgs/wireframeforreadme/ver11.png "wireframe screenshot")
-
-However, this format proved to be too on the nose, too informal, and the function was lost to cramped smaller screen sizes, and it didn't translate very well to mobile.
-
-After some redesigning, version 2 wireframes emerged.
-
-![Origianl Wire Frame screenshot](assets/img/Readmerefimgs/wireframeforreadme/ver21.png "wireframe screenshot")
-
-![Origianl Wire Frame screenshot](assets/img/Readmerefimgs/wireframeforreadme/ver22.png "wireframe screenshot")
-
-![Origianl Wire Frame screenshot](assets/img/Readmerefimgs/wireframeforreadme/ver23.png "wireframe screenshot")
-
-![Origianl Wire Frame screenshot](assets/img/Readmerefimgs/wireframeforreadme/ver24.png "wireframe screenshot")
-
-Some features changed during the build, but the change from version 1 to version 2 proved to be a much more functional platform to build from.
+Some features changed during the build, but the change from version 1 and version 2 to version 3 proved to be a much more functional platform to build from. The design stopped being so spread out and instead simplifeid and streamlined.
 
 ## Features
 
-### Home
+- Landing page provides all essential information at first sight.
+- Contact form
+- Links to social platforms
+- Links to social audio platforms
+- Links to social video platforms
+- Upcoming gig table in chronological order
 
-The home page is designed to provide the most up to date news in three simple features. The most important features are _Latest Music_, _Latest Video_ and _Next Gig_.
+## Features that will be implimented in the future
 
-### Releases
-
-The releases page is designed to, once again, show the most recent and relevant release at the top and beneath it, the discography, in chronological order.
-
-### Gigs
-
-Gigs page has a direct information table, venue, ticket link to buy tickets and all in date order.
-
-### Contact
-
-Contact page, again, focuses on what is important to the user. Firstly, mailing list to keep up to date. Simple input box with some on-brand humour beneath it. Beneath that is the various social network and external content links under another on-brand sarcastic banner, and beneath that is the least used, necessary, but not fan-focused promoter and managerial contacts.
-
-### Features Left to Implement
-
-- Features that I plan to integrate are a media player on the releases page, playlist maker, and social media live stream ticker section.
+- Direct downloads of tracks and videos from the site
+- Media player for online content
+- Shop for merchendise
+- Band curated image library
+- Further reading section
 
 ## Technologies Used
 
-As per the requirements of the assignements, the technologies used in this site are **[HTML5](https://w3.org/html)** and **[CSS](https://w3.org/css)**. Any additional technology is provided by included **[Bootstrap](https://getbootstrap.com)** scripts.
+### Languages
+
+- [HTML5](https://w3.org/html)
+- [CSS](https://w3.org/css)
+
+### Libraries & Frameworks
+
+- [Bootstrap](https://getbootstrap.com/)
+- [Git](https://git-scm.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](https://fontawesome.com/)
 
 ### Tools Used
 
-- [Visual Studio Code](https://code.visualstudio.com/) - The project used the **Visual Studio** IDE to develop the website linked with **Github** for version control.
-- [Bootstrap 4.5](https://getbootstrap.com/) - The project used a **Bootstrap 4.5** CDN for a responsive grid system.
-- [Font Awesome 5](https://fontawesome.com/) - The project used the **Font Awesome 5** for icons throughout the site.
+- [Visual Studio Code](https://code.visualstudio.com/) - The project used the **Visual Studio** 
 - [HTML Validator](https://validator.w3.org/) - The project used the **HTML Validator** to validate and find errors in the HTML.
 - [CSS Validator](https://jigsaw.w3.org/css-validator/) -The project used the **CSS Validator** to validate and find errors in the CSS.
 - [Balsamiq](https://balsamiq.com) - The project used the **Balsamiq** to create wireframes for the site.
+- [Chrome](https://www.google.com/intl/en/chrome/) developer tools.
 
 ## Testing
 
-I've been testing the site with the band themselves and with their sposes and partners. Focusing on features that they deemed necessary, and tone that they find on-brand. The final version and the final wireframe shows the journey through testing to release. The Logo in the nav bar prooved too distracting first, followed by the .gif background idea - simplified the site.
+I've been testing the site with the band themselves and with their sposes and partners. Focusing on features that they deemed necessary, and tone that they find on-brand. The final version and the final wireframe shows the journey through testing to release. The Logo in the nav bar nearly proved too distracting first, followed by the .gif background idea - simplified the site.
 
 I used VS Code Extentions to preview the site in different browsers, via Chrome. Extensively testing the layout changes at all media breakpoints. This process was made easier with **Bootstrap**.
 
-There is one layout issue that is really annoying me in the medium break point where the media boxes align the album artwork and the text left to the box, leaving a lot of wasted space on the right of the box. And a <750px but >1080px alignment of the social icons in the contact page.
+### Testing stories 
 
-More testing and listing as it happened, some features that came and went in a to do list,
-[testing and features to do list](assets/img/Readmerefimgs/chrono_todolist.md).
+- There was a recurring layout issue in the medium break point where the media boxes align the album artwork and the text left to the box, leaving a lot of wasted space on the right of the box. And a <750px but >1080px alignment of the social icons in the contact page. This was fixed with a stricter focus on the implimentation of the Bootstrap framework.
+
+- During the creation of the media boxes that have the album artwork and the tracklisting, year, and social links next to them, there were constant back and forth with designs in different sizes and breakpoints showing all sorts of errors. Specifically in the smallest viewpoint, all content would over lap each other. Again this was fixed with a stricter focus on Bootstrap conatiner-row-column documentation.
+
+- The nav logo was another particualy difficult design exploration - the size and shape of it to keep it out of the way but also relevent was extremely difficult.
 
 ## Deployment
 
-The site is hosted on GitHub Pages, which is was a simple process to execute. Testing the page after deployment proved another challenge, as my images and linked assets didn't work. A few more commits to the master branch, made easier by GitHub Pages proved a good solution for this.
+**Venice Drone Band Website** was developed on **VS Code**, using **git** and **GitHub** to host the repository.
+
+When deploying **Venice Drone Band Wesbite** using **GitHub Pages** the following steps were made:
+
+- Opened up **GitHub** in the browser.
+- Signed in using username and password.
+- Selected my **repositories**.
+- Navigated to **'/lornebb/Venice-Drone-Website'**.
+- In the top navigation clicked **'settings'**.
+- Scrolled down to the **GitHub Pages** area.
+- Selected **'Master Branch'** from the **'Source'** dropdown menu.
+- Clicked to confirm my selection.
+- **Venice Drone Band Website** now live on GitHub Pages.
+
+### Running Venice Drone Band Website Locally
+
+Cloning **Venice Drone Band Website** from **GitHub**:
+
+- Navigate to **'/lornebb/Venice-Drone-Website'**.
+- Click the green **'Clone or Download'** button in the top right.
+- Copy the **url** in the dropdown box.
+- Using your favourite **IDE** open up your preferred **terminal**.
+- Navigate to your desired file location.
+- Copy the following **code** and input it into your terminal to clone Holiday Destinations.
+
+```bash
+git clone https://github.com/lornebb/Venice-Drone-Website.git
+```
 
 ## Credits
 
 This site was made for educational purposes only by Lorne Ashley Brigham-Bowes, 2020.
+
+- [**Chris Palmer**](https://github.com/cgpalmer) - helped with my rebuild and kept my thinking and implimentaion simple.
+- **CI Student care** - For getting me off the ground with my first IRL CDN.
+- [Bootstrap snippets](https://bootsnipp.com/snippets/GqBjl)
+- [Simen Daehlin](https://github.com/Eventyret) - my mentor during this build, provided above and beyond help to teach me how to make it reach a standard I could be proud of.
 
 ### Content
 
@@ -206,8 +209,8 @@ This site was made for educational purposes only by Lorne Ashley Brigham-Bowes, 
 
 ### Media
 
-- The photos used in this site for the background were obtained from [Pexels](www.Pexels.com).
+- All media in this project is created by Venice Drone.
 
 ### Acknowledgements
 
-- I received inspiration for this project frommy fellow students and the wonderful team on slack, my good friend Dave at [EightArms](https://eightarms.co.uk/), and a thank you to my mentor, Antonjia.
+- I received inspiration for this project frommy fellow students and the wonderful team on slack, my good friend Dave at [EightArms](https://eightarms.co.uk/), and a thank you to my mentors, Antonjia and Simen.
