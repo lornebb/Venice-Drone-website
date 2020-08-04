@@ -8,6 +8,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.section {
+    height: 80vh;
+}
+
 .fab {
     font-size: 1.2rem;
 }
