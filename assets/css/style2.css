@@ -4,13 +4,16 @@ body {
     height: 100%;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .fab {
     font-size: 1.2rem;
 }
 
 .section-colour {
     background-color: #9AFEFF;
-    /* color: #D72638 */
 }
 
 .heading-colour {
@@ -50,6 +53,14 @@ body {
 
 .table-style {
     overflow-x: auto;
+}
+
+.img-thumbnail {
+    max-height: 100%;
+}
+
+.listing {
+    padding: 0.5rem;
 }
 
 footer {
