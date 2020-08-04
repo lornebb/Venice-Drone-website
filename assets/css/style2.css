@@ -9,10 +9,28 @@ body {
 }
 
 .title-card-colour {
-    background-color: #FF570A;
+    /* background-color: #FF570A; */
 }
 
 .section-colour {
-    background-color: #ffffff
-    color: #ffffff;
+    background-color: #ffffff;
+    /* color: #D72638 */
+}
+
+.rest-hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/sky-v3-banner.png");
+    height: 15rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.rest-hero-text {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
