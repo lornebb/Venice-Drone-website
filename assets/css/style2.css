@@ -34,3 +34,12 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.btn {
+    background-color: #FF570A;
+    color: #ffffff
+}
+
+.footer-img {
+    background-image: url(../img/yellow-logo.jpg);
+}
