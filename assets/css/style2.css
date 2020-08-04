@@ -13,7 +13,13 @@ html {
 }
 
 .contact-section {
-    height: 40vh;
+    height: 100%;
+    padding-bottom: 5vh;
+}
+
+.press-bookings h6 {
+    padding-top: 3rem;
+    text-decoration: underline;
 }
 
 .fab {
