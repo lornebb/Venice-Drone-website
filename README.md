@@ -4,6 +4,40 @@
 
 Venice Drone is a band that make music. This site will showcase the latest releases by the band, make an archive of releases available to click through to, let users see upcoming gig dates with links to buy tickets and give a options for fans and industry to get in touch or book the band.
 
+- [Venice Drone - Band Website](#venice-drone---band-website)
+  - [UX](#ux)
+    - [Project Goals](#project-goals)
+    - [Target Audience Goals](#target-audience-goals)
+      - [Target Audience](#target-audience)
+      - [User Goals](#user-goals)
+      - [User Stories](#user-stories)
+        - [Mage Cunningham](#mage-cunningham)
+        - [Mr. Inana](#mr-inana)
+        - [Mrs. SmithlyJiggles](#mrs-smithlyjiggles)
+      - [Site Owner Goals](#site-owner-goals)
+  - [User Requirements and Expectations](#user-requirements-and-expectations)
+    - [User Requirements](#user-requirements)
+    - [User Expectations](#user-expectations)
+  - [**Design Choices**](#--design-choices--)
+    - [Fonts](#fonts)
+    - [Icons](#icons)
+    - [Colours](#colours)
+  - [Wireframes](#wireframes)
+  - [Features](#features)
+  - [Features that will be implemented in the future](#features-that-will-be-implemented-in-the-future)
+  - [Technologies Used](#technologies-used)
+    - [Languages](#languages)
+    - [Libraries & Frameworks](#libraries---frameworks)
+    - [Tools Used](#tools-used)
+  - [Testing](#testing)
+    - [Testing stories](#testing-stories)
+  - [Deployment](#deployment)
+    - [Running Venice Drone Band Website Locally](#running-venice-drone-band-website-locally)
+  - [Credits](#credits)
+    - [Content](#content)
+    - [Media](#media)
+    - [Acknowledgements](#acknowledgements)
+
 ## UX
 
 ### Project Goals
