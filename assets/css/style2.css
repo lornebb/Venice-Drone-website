@@ -20,6 +20,7 @@ html {
 .press-bookings h6 {
   padding-top: 3rem;
   text-decoration: underline;
+  word-wrap: break-word;
 }
 
 .fab {
