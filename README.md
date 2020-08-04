@@ -1,4 +1,4 @@
-# Venice Drone Fan Website
+# Venice Drone Website
 
 This is the first assignement of the Full Stack Development course with Code Institute. This web site will showcase an understanding of HTML5 and CSS3 along with Bootstrap 4.5 in a user-facing static webfront for a rock band called Venice Drone.
 
