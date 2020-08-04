@@ -1,83 +1,89 @@
 body {
-    background-color: #9AFEFF;
-    font-family: "DM Mono", monospace;
-    height: 100%;
+  background-color: #9afeff;
+  font-family: "DM Mono", monospace;
+  height: 100%;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .gig-section {
-    height: 60vh;
+  height: 60vh;
 }
 
 .contact-section {
-    height: 100%;
-    padding-bottom: 5vh;
+  height: 100%;
+  padding-bottom: 5vh;
 }
 
 .press-bookings h6 {
-    padding-top: 3rem;
-    text-decoration: underline;
+  padding-top: 3rem;
+  text-decoration: underline;
 }
 
 .fab {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .social-icons-big i {
-    font-size: 3rem;
-    color: #50514F;
+  font-size: 3rem;
+  color: #50514f;
 }
 
 #hero-image {
-    height: 55vh;
+  height: 55vh;
 }
 
 .rest-hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/sky-v3-banner.png");
-    height: 55vh;
-    overflow: hidden;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../img/sky-v3-banner.png");
+  height: 55vh;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .rest-hero-text {
-    text-align: center;
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .btn {
-    background-color: #FF570A;
-    color: #ffffff
+  background-color: #ff570a;
+  color: #ffffff;
 }
 
 .table-style {
-    overflow-x: auto;
+  overflow-x: auto;
 }
 
 .img-thumbnail {
-    max-height: 100%;
+  max-height: 100%;
 }
 
 .listing {
-    padding: 0.5rem;
+  padding: 0.5rem;
 }
 
 footer {
-    font-size: 0.5rem;
-    background-color: #50514F;
-    color: #ffffff;
+  font-size: 0.5rem;
+  background-color: #50514f;
+  color: #ffffff;
 }
 
 footer a {
-    font-size: 1rem;
-    color: #ffffff;
+  font-size: 1rem;
+  color: #ffffff;
 }
