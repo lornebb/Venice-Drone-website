@@ -20,6 +20,11 @@ html {
     font-size: 1.2rem;
 }
 
+.social-icons-big i {
+    font-size: 3rem;
+    color: #50514F;
+}
+
 #hero-image {
     height: 55vh;
 }
