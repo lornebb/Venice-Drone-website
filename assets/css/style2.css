@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffff;
+    background-color: #9AFEFF;
     font-family: "DM Mono", monospace;
     height: 100%;
 }
@@ -10,17 +10,6 @@ html {
 
 .fab {
     font-size: 1.2rem;
-}
-
-.section-colour {
-    background-color: #9AFEFF;
-}
-
-.heading-colour {
-    background-color: #50514F;
-    color: #ffffff;
-    padding-top: 3vh;
-    font-size: 1.3rem;
 }
 
 #hero-image {
