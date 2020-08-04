@@ -8,18 +8,26 @@ body {
     font-size: 1.2rem;
 }
 
-.title-card-colour {
-    /* background-color: #FF570A; */
+.section-colour {
+    background-color: #9AFEFF;
+    /* color: #D72638 */
 }
 
-.section-colour {
-    background-color: #ffffff;
-    /* color: #D72638 */
+.heading-colour {
+    background-color: #50514F;
+    color: #ffffff;
+    padding-top: 3vh;
+    font-size: 1.3rem;
+}
+
+#hero-image {
+    height: 55vh;
 }
 
 .rest-hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/sky-v3-banner.png");
-    height: 15rem;
+    height: 55vh;
+    overflow: hidden;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,6 +48,12 @@ body {
     color: #ffffff
 }
 
-.footer-img {
-    background-image: url(../img/yellow-logo.jpg);
+.table-style {
+    overflow-x: auto;
+}
+
+footer {
+    font-size: 0.5rem;
+    background-color: #50514F;
+    color: #ffffff;
 }
