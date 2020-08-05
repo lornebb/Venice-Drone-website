@@ -21,11 +21,11 @@ footer a {
   color: #ffffff;
 }
 
-.gig-section {
+#gig-section {
   height: 60vh;
 }
 
-.contact-section {
+#contact-section {
   height: 100%;
   padding-bottom: 5vh;
 }
