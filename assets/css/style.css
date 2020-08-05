@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+
 body {
-  background-color: #9afeff;
-  font-family: "DM Mono", monospace;
+  background-color: #e4dfda;
+  font-family: "Montserrat", sans-serif;
   height: 100%;
 }
 
@@ -34,7 +36,7 @@ html {
 
 .social-icons-big i {
   font-size: 3rem;
-  color: #50514f;
+  color: #48a9a6;
 }
 
 #hero-image {
