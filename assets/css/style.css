@@ -1,13 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #e4dfda;
   font-family: "Montserrat", sans-serif;
   height: 100%;
 }
 
-html {
-  scroll-behavior: smooth;
+footer {
+  font-size: 0.5rem;
+  background-color: #50514f;
+  color: #ffffff;
+}
+
+footer a {
+  font-size: 1rem;
+  color: #ffffff;
 }
 
 .gig-section {
@@ -78,15 +89,4 @@ html {
 
 .listing {
   padding: 0.5rem;
-}
-
-footer {
-  font-size: 0.5rem;
-  background-color: #50514f;
-  color: #ffffff;
-}
-
-footer a {
-  font-size: 1rem;
-  color: #ffffff;
 }
