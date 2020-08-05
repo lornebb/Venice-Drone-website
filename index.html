@@ -16,7 +16,7 @@
 <body>
     <!-- nav bar -->
     <header>
-        <nav class="navbar-expand-sm navbar navbar-dark bg-dark fixed-top" id="back-to-top">
+        <nav class="navbar-expand-sm navbar navbar-dark bg-dark fixed-top">
             <a class="navbar-brand pl-2" href="#" aria-label="Home">
                 <img src="assets/img/black-logo.png" width="130" height="65" alt="" loading="lazy">
             </a>
@@ -34,7 +34,7 @@
         </nav>
     </header>
     <div class="container-fluid" id="hero-image">
-        <div class="row">
+        <div class="row"  id="back-to-top">
             <div class="col rest-hero-image">
                 <div class="rest-hero-text">
                     <h1> Rest </h1>
@@ -86,7 +86,7 @@
         </div>
     </div>
     <!-- gig list section -->
-    <div class="container-fluid pt-5" id="gig-section">
+    <div class="container-fluid" id="gig-section">
         <div class="row">
             <div class="col">
                 <h1 class="text-center pt-3">Gigs</h1>
@@ -272,18 +272,19 @@
             <div class="col-2"></div>
         </div>
     </div>
-    <!-- youtube embed -->
-    <div class="row pt-5" id="releases-section">
-        <div class="col">
-            <h1 class="text-center">Releases</h1>
-        </div>
-    </div>
-    <div class="container">
+    <!-- releases section -->
+    <div class="container" id="releases-section">
         <div class="row">
             <div class="col">
-                <h2 class="text-center pt-3">Rest</h2>
+                <h1 class="text-center">Releases</h1>
             </div>
         </div>
+        <div class="row">
+            <div class="col">
+                <h5 class="text-left">lastest single - Rest - 2020</h5>
+            </div>
+        </div>
+        <!-- youtube embed -->
         <div class="row">
             <div class="col">
                 <div class="embed-responsive embed-responsive-16by9">
@@ -292,15 +293,13 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!-- nice one ep -->
-    <div class="container-fluid">
+        <!-- nice one ep -->
         <div class="row">
             <div class="col">
-                <h2 class="text-center pt-3">Discography</h2>
+                <h5 class="text-left pt-3">Discography</h5>
             </div>
         </div>
-        <div class="row p-3">
+        <div class="row">
             <div class="col-sm-6">
                 <img src="assets/img/release_covers/NICE1-cover.jpg" alt="album-artwork-2020" class="img-thumbnail">
             </div>
@@ -326,10 +325,8 @@
                 </ol>
             </div>
         </div>
-    </div>
-    <!-- back to the future -->
-    <div class="container-fluid">
-        <div class="row p-3">
+        <!-- back to the future -->
+        <div class="row">
             <div class="col-sm-6">
                 <img src="assets/img/release_covers/Car-cover.jpg" alt="album-artwork-2020" class="img-thumbnail">
             </div>
