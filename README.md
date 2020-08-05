@@ -18,7 +18,7 @@ Venice Drone is a band that make music. This site will showcase the latest relea
   - [User Requirements and Expectations](#user-requirements-and-expectations)
     - [User Requirements](#user-requirements)
     - [User Expectations](#user-expectations)
-  - [**Design Choices**](#--design-choices--)
+  - [**Design Choices**](#design-choices)
     - [Fonts](#fonts)
     - [Icons](#icons)
     - [Colours](#colours)
@@ -98,7 +98,7 @@ Venice Drone are an extremely simple band in a very confusing time. The aim with
 - Find information to book press interviews and book shows with the band.
 - Find out what is new and have an opportunity to catch up.
 
-## **Design Choices**
+## Design Choices
 
 The user experience is focused site-wide. The Venice Drone fanbase have a wide age range, so this site must be usable by teens and adults. For that reason each content section is separated by a title header in a bold colour with to-the-point titles, and nice spacious margins around the content that is in focus for that section, which changes depending on view height.
 
