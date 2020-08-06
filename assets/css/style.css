@@ -29,11 +29,11 @@ footer a {
 
 #gig-section {
   padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-bottom: 4rem;
 }
 
 #contact-section {
-  padding-top: 8rem;
+  padding-top: 4rem;
   padding-bottom: 8rem;
 }
 
@@ -50,9 +50,9 @@ footer a {
 
 .fab {
   font-size: 1.2rem;
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
+  padding: 2rem;
+  font-size: 3rem;
+  width: 5rem;
   text-align: center;
   text-decoration: none;
 }
