@@ -11,9 +11,10 @@ body {
 }
 
 footer {
-  font-size: 0.5rem;
+  min-height: 2rem;
+  font-size: 1rem;
   background-color: #50514f;
-  color: #ffffff;
+  color: #d4d3d3;
 }
 
 footer a {
