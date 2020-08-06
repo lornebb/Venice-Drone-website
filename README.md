@@ -109,11 +109,11 @@ They are a secretive, non-ego driven band with very little desire to share perso
 The site is designed to be easily modifiable, since Venice Drone are an active band, when more content is released, it can easily be added to the site, and copied to the front page for a feature.
 Other sites I referenced were [_Radioheads_ 'WASTE' site](https://www.wasteheadquarters.com/) and [_Idles_ website](https://www.idlesband.com/) Particularly the titles, dimensions, simplicity and direct tone.
 
-![Radiohead website screenshot](wireframes/ref-radiohead_ref.png "radiohead screenshot")
+![Radiohead website screenshot](wireframes/ref-radiohead.png "radiohead screenshot")
 
-![Idles website screenshot 1](wireframes/ref-idelsref1.png "idles screenshot 1")
+![Idles website screenshot 1](wireframes/ref-idles-signup.png "idles screenshot 1")
 
-![Idles website screenshot 2](wireframes/ref-idelesref2.png"idles screenshot 2")
+![Idles website screenshot 2](wireframes/ref-idles-booking.png "idles screenshot 2")
 
 ### Fonts
 
