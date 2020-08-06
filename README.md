@@ -192,7 +192,27 @@ I used VS Code Extensions to preview the site in different browsers, via Chrome.
 
 ### Testing stories
 
-- There was a recurring layout issue in the medium break point where the media boxes align the album artwork and the text left to the box, leaving a lot of wasted space on the right of the box. And a <750px but >1080px alignment of the social icons in the contact page. This was fixed with a stricter focus on the implementation of the Bootstrap framework.
+#### Responsivness Testing
+
+- **Plan** - The site had to have a responsive layout that works on all platforms for an ease of access to all users.
+- **Implimentation** - Using Bootstrap was a much easier option to ensure usability on all platforms since they have such an integrated flex box system.
+- **Results** - After a few rebuilds and back and forth between the live delpoyment and developer tools in Chrome, a stable desktop, tablet and mobile broswer build had been developed.
+- **Verdict** - These tests were systemactially passed with each section.
+
+#### Features Testing
+
+- **Plan** - There is a minimum list of features to be implimented in the site to ensure its value to users.
+- **Implimentation** - All the features planned had to be static by design. So using well organised HTML to keep the content ordered and easy to edit with time was essential.
+- **Results** - Gig table changed from a FORM tag to bootstraps row and column style. This also applied to the contact listings of industry points.
+- **Verdict** - Information in each feature is easy to read on all platforms and can be changed in the code easily with a basic understanding of HTML.
+
+## Bugs
+
+### Layout bug
+
+- **Bug** - There was a recurring layout issue in the medium break point where the media boxes align the album artwork and the text left to the box, leaving a lot of wasted space on the right of the box. And a <750px but >1080px alignment of the social icons in the contact page.
+- **Fix** - This was fixed with a stricter focus on the implementation of the Bootstrap framework.
+- **Verdict** - Sticking to the Bootstrap build system (Container - Row - Col) is the only way to build on bootstrap without finding these errors.
 
 - During the creation of the media boxes that have the album artwork and the tracklisting, year, and social links next to them, there were constant back and forth with designs in different sizes and breakpoints showing all sorts of errors. Specifically in the smallest viewpoint, all content would over lap each other. Again this was fixed with a stricter focus on Bootstrap container-row-column documentation.
 
