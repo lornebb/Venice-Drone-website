@@ -255,7 +255,6 @@ This site was made for educational purposes only by Lorne Ashley Brigham-Bowes, 
 
 - [**Chris Palmer**](https://github.com/cgpalmer) - helped with my rebuild and kept my thinking and implementation simple.
 - **CI Student care** - For getting me off the ground with my first IRL CDN.
-- [Bootstrap snippets](https://bootsnipp.com/snippets/GqBjl)
 - [Simen Daehlin](https://github.com/Eventyret) - my mentor during this build, provided above and beyond help to teach me how to make it reach a standard I could be proud of.
 
 ### Content
