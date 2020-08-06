@@ -214,9 +214,9 @@ I used VS Code Extensions to preview the site in different browsers, via Chrome.
 - **Fix** - This was fixed with a stricter focus on the implementation of the Bootstrap framework.
 - **Verdict** - Sticking to the Bootstrap build system (Container - Row - Col) is the only way to build on bootstrap without finding these errors.
 
-- During the creation of the media boxes that have the album artwork and the tracklisting, year, and social links next to them, there were constant back and forth with designs in different sizes and breakpoints showing all sorts of errors. Specifically in the smallest viewpoint, all content would over lap each other. Again this was fixed with a stricter focus on Bootstrap container-row-column documentation.
-
-- The nav logo was another particularly difficult design exploration - the size and shape of it to keep it out of the way but also relevant was extremely difficult.
+- **Bug** - During the creation of the media boxes that have the album artwork and the tracklisting, year, and social links next to them, there were constant back and forth with designs in different sizes and breakpoints showing all sorts of errors. Specifically in the smallest viewpoint, all content would over lap each other.
+- **Fix** - Again this was fixed with a stricter focus on Bootstrap container-row-column documentation.
+- **Verdict** - Reading and understanding the work flow of Bootstrap once again prooved to be extremely useful.
 
 ## Deployment
 
@@ -227,7 +227,7 @@ When deploying **Venice Drone Band Website** using **GitHub Pages** the followin
 - Opened up **GitHub** in the browser.
 - Signed in using username and password.
 - Selected my **repositories**.
-- Navigated to **'/lornebb/Venice-Drone-Website'**.
+- Navigated to **'lornebb/Venice-Drone-Website'**.
 - In the top navigation clicked **'settings'**.
 - Scrolled down to the **GitHub Pages** area.
 - Selected **'Master Branch'** from the **'Source'** dropdown menu.
