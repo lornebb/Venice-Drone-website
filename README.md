@@ -164,7 +164,7 @@ Some features changed during the build, but the change from version 1 and versio
 
 ### Languages
 
-- [HTML5](https://w3.org/html)
+- [HTML](https://w3.org/html)
 - [CSS](https://w3.org/css)
 
 ### Libraries & Frameworks
@@ -181,6 +181,8 @@ Some features changed during the build, but the change from version 1 and versio
 - [CSS Validator](https://jigsaw.w3.org/css-validator/) -The project used the **CSS Validator** to validate and find errors in the CSS.
 - [Balsamiq](https://balsamiq.com) - The project used the **Balsamiq** to create wireframes for the site.
 - [Chrome](https://www.google.com/intl/en/chrome/) developer tools.
+- [JQuery](https://jquery.com) is used to simplify DOM manipulation, delivered with the Bootstrap CDN.
+- [PopperJS](https://popper.js.org/) delivered with the Bootstrap CDN
 
 ## Testing
 
