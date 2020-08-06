@@ -117,7 +117,7 @@ Other sites I referenced were [_Radioheads_ 'WASTE' site](https://www.wasteheadq
 
 ### Fonts
 
-The font used throughout the site is a simple DM MONO provided by [Google Fonts CDN](https://fonts.google.com/specimen/DM+Mono) . The spacious and unobtrusive nature of the font provided a clear and direct approach to copy impact.
+The font used throughout the site is a simple Roboto provided by [Google Fonts CDN](https://fonts.google.com/specimen/Roboto). The spacious and unobtrusive nature of the font provided a clear and direct approach to copy impact.
 
 ### Icons
 
